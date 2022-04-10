@@ -1,0 +1,47 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/simon/ifly_ws/devel/include/**",
+        "/home/simon/wanderbot_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/simon/wanderbot_ws/src/navigation/amcl/include/**",
+        "/home/simon/wanderbot_ws/src/navigation/base_local_planner/include/**",
+        "/home/simon/wanderbot_ws/src/navigation/carrot_planner/include/**",
+        "/home/simon/wanderbot_ws/src/navigation/clear_costmap_recovery/include/**",
+        "/home/simon/ifly_ws/src/controller/include/**",
+        "/home/simon/wanderbot_ws/src/navigation/costmap_2d/include/**",
+        "/home/simon/wanderbot_ws/src/navigation/dwa_local_planner/include/**",
+        "/home/simon/wanderbot_ws/src/navigation/global_planner/include/**",
+        "/home/simon/ifly_ws/src/hector_map_tools/include/**",
+        "/home/simon/ifly_ws/src/hector_mapping/include/**",
+        "/home/simon/ifly_ws/src/hector_marker_drawing/include/**",
+        "/home/simon/ifly_ws/src/ifly_slam/include/**",
+        "/home/simon/wanderbot_ws/src/navigation/map_server/include/**",
+        "/home/simon/wanderbot_ws/src/navigation/move_base/include/**",
+        "/home/simon/wanderbot_ws/src/navigation/move_slow_and_clear/include/**",
+        "/home/simon/wanderbot_ws/src/navigation/nav_core/include/**",
+        "/home/simon/wanderbot_ws/src/navigation/navfn/include/**",
+        "/home/simon/wanderbot_ws/src/navigation/rotate_recovery/include/**",
+        "/home/simon/wanderbot_ws/src/geometry2/tf2/include/**",
+        "/home/simon/wanderbot_ws/src/geometry2/tf2_bullet/include/**",
+        "/home/simon/wanderbot_ws/src/geometry2/tf2_eigen/include/**",
+        "/home/simon/wanderbot_ws/src/geometry2/tf2_geometry_msgs/include/**",
+        "/home/simon/wanderbot_ws/src/geometry2/tf2_kdl/include/**",
+        "/home/simon/wanderbot_ws/src/geometry2/tf2_msgs/include/**",
+        "/home/simon/wanderbot_ws/src/geometry2/tf2_ros/include/**",
+        "/home/simon/wanderbot_ws/src/geometry2/tf2_sensor_msgs/include/**",
+        "/home/simon/wanderbot_ws/src/turtlebot3_gazebo/include/**",
+        "/home/simon/wanderbot_ws/src/turtlebot3_slam/include/**",
+        "/home/simon/wanderbot_ws/src/navigation/voxel_grid/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

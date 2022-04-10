@@ -1,0 +1,8 @@
+prefix=/home/cf/ai_ws/devel
+
+Name: xf_gmapping
+Description: Description of xf_gmapping
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

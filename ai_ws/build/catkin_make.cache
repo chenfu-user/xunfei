@@ -1,0 +1,2 @@
+gazebo_pkg:navigation:xf_gmapping:yolo
+-DCATKIN_DEVEL_PREFIX=/home/cf/ai_ws/devel -DCMAKE_INSTALL_PREFIX=/home/cf/ai_ws/install -G Unix Makefiles

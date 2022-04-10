@@ -1,0 +1,19 @@
+<launch>
+  <!-- Arguments -->
+  <arg name="model" default="robot" doc=""/>
+  <arg name="configuration_basename" default="ifly_lds_2d.lua"/>
+  <arg name="set_base_frame" default="base_footprint"/>
+  <arg name="set_odom_frame" default="odom"/>
+  <arg name="set_map_frame"  default="map"/>
+
+  <!-- Gmapping -->
+  <node pkg="gmapping" type="slam_gmapping" name="xf_slam_gmapping" output="screen">
+    <param name="base_frame" value="$(arg set_base_frame)"/>
+    <param name="odom_frame" value="$(arg set_odom_frame)"/>
+    <param name="map_frame"  value="$(arg set_map_frame)"/>
+    <rosparam command="load" file="$(find xf_gmapping)/config/gmapping_params.yaml" />
+  </node>
+  
+  
+   <node pkg="rviz" type="rviz" name="rviz" required="true" args="-d $(find xf_gmapping)/rviz/ifly_gmapping.rviz"/>
+</launch>
